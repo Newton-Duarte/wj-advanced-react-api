@@ -32,6 +32,59 @@
       "repeatable": false,
       "component": "page.about",
       "required": true
+    },
+    "sectionTech": {
+      "displayName": "sectionTech",
+      "type": "component",
+      "repeatable": false,
+      "component": "page.section-tech"
+    },
+    "sectionConcepts": {
+      "displayName": "sectionConcept",
+      "type": "component",
+      "repeatable": false,
+      "component": "page.section-concept",
+      "required": true
+    },
+    "sectionModules": {
+      "displayName": "sectionModules",
+      "type": "component",
+      "repeatable": false,
+      "component": "page.section-modules",
+      "required": true
+    },
+    "sectionAgenda": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.section-agenda",
+      "required": true
+    },
+    "pricingBox": {
+      "displayName": "pricingBox",
+      "type": "component",
+      "repeatable": false,
+      "component": "page.pricing-box"
+    },
+    "sectionAuthors": {
+      "displayName": "sectionAuthors",
+      "type": "component",
+      "repeatable": false,
+      "component": "page.section-authors",
+      "required": true
+    },
+    "sectionReviews": {
+      "displayName": "sectionReviewers",
+      "type": "component",
+      "repeatable": false,
+      "component": "page.section-reviewers",
+      "required": true
+    },
+    "sectionFaq": {
+      "displayName": "sectionFaq",
+      "type": "component",
+      "repeatable": false,
+      "component": "page.section-faq",
+      "required": true
     }
   }
 }
