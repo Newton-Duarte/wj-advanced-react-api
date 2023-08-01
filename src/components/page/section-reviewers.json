@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_page_section_reviewers",
+  "info": {
+    "displayName": "sectionReviewers",
+    "icon": "grid"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "reviews": {
+      "displayName": "reviewers",
+      "type": "component",
+      "repeatable": true,
+      "component": "page.reviewers",
+      "required": true,
+      "min": 4
+    }
+  }
+}
